@@ -57,7 +57,7 @@ def send_text(message):
         bot.send_message(message.chat.id, get_prize_date(date))
         
     elif message.text == 'О боте':
-        bot.send_message(message.chat.id, 'Этот бот существует только потому, что @dimanoga не может запомнить когда приходит ЗП. \nСоздтаель - @Cormac117')
+        bot.send_message(message.chat.id, 'Этот бот существует только потому, что @dimanoga не может запомнить когда приходит ЗП. \nСоздатель - @Cormac117')
         
     elif message.text.lower() == 'запусти гуся':
         bot.send_message(message.chat.id, gus)
